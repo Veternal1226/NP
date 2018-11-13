@@ -6,6 +6,6 @@ fork:
 	gcc -o hw1_server_fork hw1_server_fork.c 
 select:
 	gcc -o hw1_server_select hw1_server_select.c 
-clear:
+clean:
 	rm -f hw1_server_fork
 	rm -f hw1_server_select
