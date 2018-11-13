@@ -1,5 +1,3 @@
-include ../Make.defines
-
 PROGS =	fork select
 
 all:	${PROGS}
