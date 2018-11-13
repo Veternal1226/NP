@@ -9,4 +9,5 @@ fork:
 select:
 	gcc -o hw1_server_select hw1_server_select.c 
 clear:
-	rm -f hw1_server
+	rm -f hw1_server_fork
+	rm -f hw1_server_select
